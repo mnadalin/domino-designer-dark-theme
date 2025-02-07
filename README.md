@@ -8,13 +8,13 @@ The provided configuration will style Lotusscript, Java and JavaScript sources o
 
 ## Installation
 
-Locate the directory:
+Close your HCL Domino Designer and Notes client, and backup the entire directory:
 
 ```<Notes Data Directory>\workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings```
 
-And backup all `*.pref` files.
+Clone this repository and open a **PowerShell** Windows Terminal. Move to the repo directory then type:
 
-Clone this repository and copy all the included `*.prefs` files in the same directory, overwriting existing ones.
+`.\DominoDarkTheme.ps1`
 
 Restart your Domino Designer and enjoy!
 
