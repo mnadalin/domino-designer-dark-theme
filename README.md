@@ -20,6 +20,18 @@ Restart your Domino Designer and enjoy!
 
 ![Domino Designer dark theme](https://github.com/mnadalin/domino-designer-dark-theme/blob/main/domino-designer-dark-theme.png?raw=true)
 
+## Troubleshooting
+
+In case you are getting the error:
+
+`File .\DominoDarkTheme.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.`
+
+Then temporarily allow script execution:
+
+`Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass`
+
+And run the script once again.
+
 ## Disclaimer
 
 The theme was tested on Designer version 12 and 14.5.  
