@@ -178,6 +178,17 @@ $filesAndSettings = @{
 		"semanticHighlighting.parameterVariable.enabled" = "true"
 		"sourceHoverBackgroundColor" = "255,255,225"
 	}
+	"org.eclipse.wst.xml.ui.prefs" = @{
+		"cdataBorder" "\#6a9955 | null | false | false | false | false"
+		"cdataText" "\#6a9955 | null | false | false | false | false"
+		"commentBorder" "\#6a9955 | null | false | false | false | false"
+		"commentText" "\#6a9955 | null | false | false | false | false"
+		"tagAttributeEquals" = "\#cccccc | null | false | false | false | false"
+		"tagAttributeName" = "\#9cdcfe | null | false | false | false | false"
+		"tagAttributeValue" = "\#ce9178 | null | false | false | false | false"
+		"tagBorder" = "\#778080 | null | false | false | false | false"
+		"tagName" = "\#569cd6 | null | false | false | false | false"
+	}
 }
 
 # Loop through files and update configurations
